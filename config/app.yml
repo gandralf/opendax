@@ -1,21 +1,21 @@
 ---
 app:
   name: OpenDAX
-  domain: app.local
-  subdomain: www
+  domain: gandralf.net
+  subdomain: hello-dax
   show_landing: true
 render_protect: false
 csrfEnabled: false
 ssl:
-  enabled: false
-  email: support@example.com
+  enabled: true
+  email: gandra@gmail.com
 updateVersions: false
 images:
-  peatio: quay.io/openware/peatio:2.6.48
-  barong: quay.io/openware/barong:2.6.44
-  frontend: quay.io/openware/baseapp:2.6.24
-  tower: quay.io/openware/tower:2.6.66
-  rango: quay.io/openware/rango:2.6.1
+  peatio: quay.io/openware/peatio:2.6.59
+  barong: quay.io/openware/barong:2.6.48
+  frontend: quay.io/openware/baseapp:2.6.27
+  tower: quay.io/openware/tower:2.6.82
+  rango: quay.io/openware/rango:3.1.1
 finex:
   enabled: false
   image: quay.io/openware/finex:2.6.39
@@ -28,13 +28,13 @@ kyc:
   sandbox_mode: true
   api_endpoint: https://api.kycaid.com/
 vault:
-  root_token: changeme
-  peatio_rails_token: changeme
-  peatio_crypto_token: changeme
-  peatio_upstream_token: changeme
-  peatio_matching_token: changeme
-  barong_token: changeme
-  finex_engine_token: changeme
+  root_token: s.l9vZ9Xp22fy2TW7zWWP7ZJXz
+  peatio_rails_token: s.f1Goi3Twx9e1jxl6itadDfkL
+  peatio_crypto_token: s.Wn8u9uunwGwzgZ9TTPyY4uOu
+  peatio_upstream_token: s.1jS1TcNmrHlafmGDQFnbv1gp
+  peatio_matching_token: s.GouZ4H91frEbHN5zaLph1EKE
+  barong_token: s.NHETLbXT5Q8EjgmWTyMIAnYn
+  finex_engine_token: s.xgqfnKW6yZXQDvlMM5UsbmUA
 database:
   host: db
   adapter: mysql
